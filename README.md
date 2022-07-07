@@ -9,7 +9,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 ### Table of Contents 
 1. Learning Resources
 2. Databases
-3. DDA search algorithms
+3. Raw data search software/algorithms
 4. Pipeline tools
 5. R Packages for Raw Data Analysis
 6. R Packages for Stastical Analysis
@@ -45,5 +45,15 @@ This massive master list of databses from Pastel BioScience
 http://www.pastelbioscience.co.uk/resources/databases.html - this list contains so much useful information that I'm sure the rest of my awesome list will be redundant
 
 [Uniprot](https://www.uniprot.org/)
+
+## 3. Raw data search software/algorithms
+
+Maybe you're doing a collaboration with a mass spec lab or working with the core. They sent you back raw data files and you have no idea what to do with them. Alternatively, you're just starting out in proteomics and want to find a better software to use to search your raw MS files.
+
+
+[Fragpipe](https://github.com/Nesvilab/FragPipe) currently my favorite raw file search software. It's much faster than maxquant and in my opinion has sleeker GUI. In a recent update it also allows searches to be set up on a linux server for even faster results. The software is very modular, it consists of [MSfragger](https://msfragger.nesvilab.org/) the database search algorithm, [Philosopher](https://philosopher.nesvilab.org/) that analyzes the database results, as well as others for PTM and TMT integration. 
+
+[MaxQuant](https://www.maxquant.org/) is probably the most used and well known DDA software. Developed by Jurgon Cox, this completely free software is user friendly and is always being updated with new and original features. There is even a [youtube](https://www.youtube.com/c/MaxQuantChannel) that has tons of videos on how to use the software. 
+
 
 
