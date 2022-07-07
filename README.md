@@ -20,12 +20,15 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 ## 1. Leaning Resources
 
-[Proteomics blog](https://proteomicsnews.blogspot.com/) - hands down the best protomeics blog I've seen. Ben Orsburn is very knowledgable with a great sense of humor
+[Proteomics blog](https://proteomicsnews.blogspot.com/) - hands down the best protomeics blog I've seen. Ben Orsburn is very knowledgable with a great sense of humor.
+
+[Phil Wilmarth](https://github.com/pwilmart/Start_Here) has alot of goodlearning resources. He was python scripts for raw data analysis as well as blog posts detailing TMT data analysis techniques. 
 
 [Review article](https://www.nature.com/articles/nrm1468) - great proteomics review article
 
 [Tutorial videos](https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos) - videos from NCQBCS, a project lead by the Coon lab. Contains lots of information regarding Experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
 
+[ASMS video mass spec channel](https://vimeo.com/channels/asms) contains a lot of videos from leading researchers in the protoemics field. 
 ## 2. Databases
 
 Commonly used protoemics data repoitories. You can find raw data here, or publish your down for article publication requirements. 
