@@ -20,11 +20,11 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 ## 1. Leaning Resources
 
-https://proteomicsnews.blogspot.com/ - hands down the best protomeics blog I've seen. Ben Orsburn is very knowledgable with a great sense of humor
+[Proteomics blog](https://proteomicsnews.blogspot.com/) - hands down the best protomeics blog I've seen. Ben Orsburn is very knowledgable with a great sense of humor
 
-https://www.nature.com/articles/nrm1468 - great proteomics review article
+[Review article](https://www.nature.com/articles/nrm1468) - great proteomics review article
 
-https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos - videos from NCQBCS, a project lead by the Coon lab. Contains lots of information regarding Experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
+[Tutorial videos](https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos) - videos from NCQBCS, a project lead by the Coon lab. Contains lots of information regarding Experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
 
 ## 2. Databases
 
