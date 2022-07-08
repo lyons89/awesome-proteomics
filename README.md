@@ -20,7 +20,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 ## 1. Leaning Resources
 
-[Ben Orsburn](https://proteomicsnews.blogspot.com/) has hands down the best protomeics blog I've seen. Ben is very knowledgable with a great sense of humor.
+[Ben Orsburn](https://proteomicsnews.blogspot.com/) has hands down the best protomeics blog I've ever seen. Ben is very knowledgable with a great sense of humor.
 
 [Phil Wilmarth](https://github.com/pwilmart/Start_Here) has alot of goodlearning resources. He was python scripts for raw data analysis as well as blog posts detailing TMT data analysis techniques. 
 
