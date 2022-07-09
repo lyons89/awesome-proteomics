@@ -65,10 +65,10 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 
 ## 4. Assorted pipeline Tools
 
-[Monocle](https://github.com/gygilab/Monocle) a program built, in part by Deven Schweppe, for monoisotopic peak and accurate precursor m/z detection in shotgun proteomics experiments. I have only spent a little time tinkering around with this, but if I ever need to make a raw data analysis pipeline this would be included. [paper for reference](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00563)
+2021 - [Monocle](https://github.com/gygilab/Monocle) a program built, in part by Deven Schweppe, for monoisotopic peak and accurate precursor m/z detection in shotgun proteomics experiments. I have only spent a little time tinkering around with this, but if I ever need to make a raw data analysis pipeline this would be included. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00563)
 
 
-[RawBeans](https://bitbucket.org/incpm/prot-qc/src/master/) is a upgraded program of RawMeat. It's a raw data quaility control tool that help identify insturment issues relating to spray instability, problems with fragmentation or unequal loading. This program can be used on a stand alone PC or included in a pipeline. [paper for reference](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00956?goto=supporting-info)
+2021 - [RawBeans](https://bitbucket.org/incpm/prot-qc/src/master/) is a upgraded program of RawMeat. It's a raw data quaility control tool that help identify insturment issues relating to spray instability, problems with fragmentation or unequal loading. This program can be used on a stand alone PC or included in a pipeline. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00956?goto=supporting-info)
 
 
 
@@ -79,9 +79,17 @@ R is a great language to learn for proteomics data analysis. I highly recommend 
 
 I don't recommend it for large raw files but it's possible to read raw MS files into R and analyze the PSMs. Can be helpful if you want to plot or quantify specific PTMs or peptides for say a PRM experiment.
 
-[rawrr](https://github.com/fgcz/rawrr) is a great package that can read in raw thermo files! Thats great to me, because I always find it tedious to convert a raw file into a mzML or mzXML file. 
+2018 - [rawDiag](https://github.com/fgcz/rawDiag) is a nice companion package that can be used in conjustion with rawrr - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00173)
 
-[rawDiag](https://github.com/fgcz/rawDiag) is a nice companion package that can be used in conjustion with rawrr.
+2021 - [rawrr](https://github.com/fgcz/rawrr) is a great package that can read in raw thermo files! Thats great to me, because I always find it tedious to convert a raw file into a mzML or mzXML file - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00866)
 
 
+## 6. R Packages for Stastical Analysis
 
+2014 - [MSstats](https://github.com/Vitek-Lab/MSstats) - DDA/shotgun, bottom-up, SRM, DIA - [paper](https://academic.oup.com/bioinformatics/article/30/17/2524/2748156?login=false)
+
+2020 - [MSstatsTMT](https://github.com/Vitek-Lab/MSstatsTMT) - TMT shotgun proteomics - [paper](https://www.mcponline.org/article/S1535-9476(20)35114-8/fulltext)
+
+2020 - [proteiNorm](https://github.com/ByrumLab/proteiNorm) - TMT and unlabeled, has multiple options for normalization and statistical analysis - [paper](https://pubs.acs.org/doi/10.1021/acsomega.0c02564)
+
+2020 - [DEqMS](https://github.com/yafeng/DEqMS) - Developed ontop of limma, but takes into account variability in PSMs. Works on both labelled and unlabelled samples - [paper](https://www.mcponline.org/article/S1535-9476(20)34997-5/fulltext)
