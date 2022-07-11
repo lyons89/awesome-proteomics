@@ -98,7 +98,7 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 ## 7. R packages for Protein Pathway Enrichment
 
-2019 - [fgsea](https://github.com/ctlab/fgsea)
+2019 - [fgsea](https://github.com/ctlab/fgsea) - fast gene set enrichment analysis - [paper](https://www.biorxiv.org/content/10.1101/060012v2.full)
 
 2021 - [phosphoRWHN](https://github.com/JoWatson2011/phosphoRWHN) - pathway enrichment for phosphoproteomics data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.1c00150)
 
