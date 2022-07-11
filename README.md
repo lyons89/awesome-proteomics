@@ -93,3 +93,15 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2020 - [proteiNorm](https://github.com/ByrumLab/proteiNorm) - TMT and unlabeled, has multiple options for normalization and statistical analysis - [paper](https://pubs.acs.org/doi/10.1021/acsomega.0c02564)
 
 2020 - [DEqMS](https://github.com/yafeng/DEqMS) - Developed ontop of limma, but takes into account variability in PSMs. Works on both labelled and unlabelled samples - [paper](https://www.mcponline.org/article/S1535-9476(20)34997-5/fulltext)
+
+2021 - [MSstatsPTM[(https://github.com/tsunghengtsai/MSstatsPTM) - labeled and unlabeled PTM data analysis
+
+## 7. R packages for Protein Pathway Enrichment
+
+2019 - [fgsea](https://github.com/ctlab/fgsea)
+
+2021 - [phosphoRWHN](https://github.com/JoWatson2011/phosphoRWHN) - pathway enrichment for phosphoproteomics data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.1c00150)
+
+2021 - [leapR](https://github.com/PNNL-CompBio/leapR) - package for multiple pathway analysis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00963)
+
+2019 - [pathfindR](https://github.com/egeulgen/pathfindr) - active subnetwork oriented pathway enrichment analyses that uses protein-protein ineteraction networks to enchance the standard pathway analysis method - [paper](https://www.frontiersin.org/articles/10.3389/fgene.2019.00858/full)
