@@ -117,7 +117,7 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2018 - [PaDuA](https://github.com/mfitzp/padua) - python - proteomics and phosphoproteomics data analysis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00576)
 
-2021 - [MSstatsPTM[(https://github.com/tsunghengtsai/MSstatsPTM) - labeled and unlabeled PTM data analysis
+2021 - [MSstatsPTM](https://github.com/tsunghengtsai/MSstatsPTM) - labeled and unlabeled PTM data analysis
 
 ## 7. R packages for Protein Pathway Enrichment
 
