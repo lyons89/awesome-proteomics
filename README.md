@@ -78,7 +78,9 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 2021 - [RawBeans](https://bitbucket.org/incpm/prot-qc/src/master/) is a upgraded program of RawMeat. It's a raw data quaility control tool that help identify insturment issues relating to spray instability, problems with fragmentation or unequal loading. This program can be used on a stand alone PC or included in a pipeline. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00956?goto=supporting-info)
 
 
+2021 - [mokapot](https://github.com/wfondrie/mokapot) - python -  Semisupervised Learning for Peptide Detection - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c01010)
 
+2021 - [qcloud2](https://github.com/proteomicsunitcrg/qcloud2-pipeline) - cloud based quality control pipeline, can be integrated with nextflow and openMS - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00853)
 
 ## 5. Raw Data Analysis
 
@@ -91,6 +93,8 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2021 - [rawrr](https://github.com/fgcz/rawrr) - R - A great package that can read in raw thermo files! Thats great to me, because I always find it tedious to convert a raw file into a mzML or mzXML file - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00866)
 
 2020 - [COSS](https://github.com/compomics/COSS) - java - user-friendly spectral library search tool - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.9b00743)
+
+2018 - [pyteomics](https://pypi.org/project/pyteomics/) - python - proteomics framework tools - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00576)
 
 ## 6. Stastical Analysis
 
@@ -120,3 +124,15 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 
 2020 - [lipidR](https://www.lipidr.org/) - R - lipidomics data analysis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00082)
+
+
+## Top down data analysis
+
+2021 - [ClipsMS](https://github.com/loolab2020/ClipsMS) - python -  analysis of terminal and internal fragments in top-down mass spectrometry data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00952)
+
+## Miscellaneous
+
+2021 - [ProteaseGuru](https://github.com/smith-chem-wisc/ProteaseGuru) - C# - tool for In Silico Database Digestion, optimize bottom up experiments - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00954)
+
+2020 - [PeCorA](https://github.com/jessegmeyerlab/PeCorA) - R - peptide correlation analsis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00602)
+
