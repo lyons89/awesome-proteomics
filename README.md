@@ -24,6 +24,8 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Phil Wilmarth](https://github.com/pwilmart/Start_Here) has alot of goodlearning resources. He was python scripts for raw data analysis as well as blog posts detailing TMT data analysis techniques. 
 
+[biostars](https://www.biostars.org/)
+
 [Review article](https://www.nature.com/articles/nrm1468) great proteomics review article
 
 [Tutorial videos](https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos) videos from NCQBCS, a project lead by the Coon lab. Contains lots of information regarding Experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
@@ -70,6 +72,7 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 [Peptide-shaker](https://compomics.github.io/projects/peptide-shaker) is like the swiss army knife of search tools. You can search data with multiple search engines inclduing, comet, tide, andromeda, mascot, X!Tandem and more that I've never heard of.  
 
 
+
 ## 4. Assorted pipeline Tools
 
 2021 - [Monocle](https://github.com/gygilab/Monocle) a program built, in part by Deven Schweppe, for monoisotopic peak and accurate precursor m/z detection in shotgun proteomics experiments. I have only spent a little time tinkering around with this, but if I ever need to make a raw data analysis pipeline this would be included. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00563)
@@ -81,6 +84,8 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 2021 - [mokapot](https://github.com/wfondrie/mokapot) - python -  Semisupervised Learning for Peptide Detection - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c01010)
 
 2021 - [qcloud2](https://github.com/proteomicsunitcrg/qcloud2-pipeline) - cloud based quality control pipeline, can be integrated with nextflow and openMS - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00853)
+
+
 
 ## 5. Raw Data Analysis
 
@@ -95,6 +100,10 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2020 - [COSS](https://github.com/compomics/COSS) - java - user-friendly spectral library search tool - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.9b00743)
 
 2018 - [pyteomics](https://pypi.org/project/pyteomics/) - python - proteomics framework tools - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00576)
+
+2021 - [PSpecteR](https://github.com/EMSL-Computing/PSpecteR) - R - User Friendly and Interactive for Visualizing the quality of Top-Down and Bottom-Up Proteomics - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00857)
+
+
 
 ## 6. Stastical Analysis
 
@@ -120,10 +129,9 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2019 - [pathfindR](https://github.com/egeulgen/pathfindr) - R - active subnetwork oriented pathway enrichment analyses that uses protein-protein ineteraction networks to enchance the standard pathway analysis method - [paper](https://www.frontiersin.org/articles/10.3389/fgene.2019.00858/full)
 
-
-
-
 2020 - [lipidR](https://www.lipidr.org/) - R - lipidomics data analysis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00082)
+
+
 
 
 ## Top down data analysis
@@ -136,3 +144,8 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2020 - [PeCorA](https://github.com/jessegmeyerlab/PeCorA) - R - peptide correlation analsis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00602)
 
+[cytoscape](https://cytoscape.org/) - visualizing protein-protein interaction netweorks
+
+# Multi-Omics data analysis
+
+2015 - [moCluster](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Integration of multiple omics datasets to identify patterns - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00824)
