@@ -75,6 +75,8 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 
 [MaxQuant Live](https://maxquant.org/mqlive/)
 
+[skyline](https://skyline.ms/project/home/software/skyline/begin.view) - software for targeted proteomics - [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799042/)
+
 ## 4. Assorted pipeline Tools
 
 2015 - [Ursgal](https://github.com/ursgal/ursgal) - python - combines multiple search engine algorithms, postprocessing algorithms, and stastis on the output from multiple search engines - [paper1](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00860) [paper2](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00799)
