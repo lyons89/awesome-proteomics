@@ -11,10 +11,13 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 2. Databases
 3. Raw data search software/algorithms
 4. Assorted Pipeline Tools
-5. R Packages for Raw Data Analysis
-6. R Packages for Stastical Analysis
-7. R packages for Protein Pathway Enrichment
-8. R Packages for Kinase Motif/Activity Analysis
+5. Raw Data Analysis
+6. Stastical Analysis
+7. Protein Pathway Enrichment
+8. Top down data analysis
+9. Multi-Omics data analysis
+10. Protein Pathway Enrichment
+11. Kinase Motif/Activity Analysis
 
 
 
@@ -38,18 +41,13 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 ## 2. Databases
 
-Commonly used protoemics data repoitories. You can find raw data here, or publish your down for article publication requirements. 
-
 [ProteomeXchange](http://www.proteomexchange.org/) is a global repository that contains links to all major databases, including MassIVE, Pride, iProX and more. Probably the best place to start.
 
 [massIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp)
 
 [Pride database](https://www.ebi.ac.uk/pride/archive/)
 
-
-This massive master list of databses from Pastel BioScience
-
-http://www.pastelbioscience.co.uk/resources/databases.html - this list contains so much useful information that I'm sure the rest of my awesome list will be redundant
+[Master Database](http://www.pastelbioscience.co.uk/resources/databases.html) - Pastel BioScience database contains so much useful information that I'm sure the rest of my awesome list will be redundant
 
 [Uniprot](https://www.uniprot.org/) - Complete protein database
 
@@ -64,9 +62,6 @@ http://www.pastelbioscience.co.uk/resources/databases.html - this list contains 
 
 ## 3. Raw data search software/algorithms
 
-Software with a pretty GUI and a peptide search engine for raw file searches.
-
-
 [Fragpipe](https://github.com/Nesvilab/FragPipe) currently my favorite raw file search software. It's much faster than maxquant and in my opinion has sleeker GUI. In a recent update it also allows searches to be set up on a linux server for even faster results. The software is very modular, it consists of [MSfragger](https://msfragger.nesvilab.org/) the database search algorithm, [Philosopher](https://philosopher.nesvilab.org/) that analyzes the database results, as well as others for PTM and TMT integration. 
 
 [MaxQuant](https://www.maxquant.org/) is probably the most used and well known DDA software. Developed by Jurgon Cox, this completely free software is user friendly and is always being updated with new and original features. There is even a [youtube](https://www.youtube.com/c/MaxQuantChannel) that has tons of videos on how to use the software. 
@@ -76,6 +71,7 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 [MaxQuant Live](https://maxquant.org/mqlive/)
 
 [skyline](https://skyline.ms/project/home/software/skyline/begin.view) - software for targeted proteomics - [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799042/)
+
 
 ## 4. Assorted pipeline Tools
 
@@ -105,7 +101,6 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2018 - [MSstatsQC](https://www.bioconductor.org/packages/release/bioc/html/MSstatsQC.html) - R - provides methods for multiple peptide monitoring using raw MS files, works for DDA and DIA data - [paper](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.8b00732)
 
-
 2018 - [rawDiag](https://github.com/fgcz/rawDiag) - R - Package that can be used in conjustion with rawrr - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00173)
 
 2021 - [rawrr](https://github.com/fgcz/rawrr) - R - A great package that can read in raw thermo files! Thats great to me, because I always find it tedious to convert a raw file into a mzML or mzXML file - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00866)
@@ -132,7 +127,9 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2021 - [MSstatsPTM](https://github.com/tsunghengtsai/MSstatsPTM) - labeled and unlabeled PTM data analysis
 
-## 7. R packages for Protein Pathway Enrichment
+
+
+## 7. Protein Pathway Enrichment
 
 2019 - [fgsea](https://github.com/ctlab/fgsea) - R - fast gene set enrichment analysis - [paper](https://www.biorxiv.org/content/10.1101/060012v2.full)
 
@@ -146,10 +143,15 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 
 
-
-## Top down data analysis
+## 8. Top down data analysis
 
 2021 - [ClipsMS](https://github.com/loolab2020/ClipsMS) - python -  analysis of terminal and internal fragments in top-down mass spectrometry data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00952)
+
+
+# 9. Multi-Omics data analysis
+
+2015 - [moCluster](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Integration of multiple omics datasets to identify patterns - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00824)
+
 
 ## Miscellaneous
 
@@ -161,6 +163,4 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2019 - [IPSC](https://github.com/coongroup/IPSA) - Interactive Peptide Spectrum Annotator, web based utility for shotgun mass spectrum annotation - [paper](https://www.mcponline.org/article/S1535-9476(20)32771-7/fulltext)
 
-# Multi-Omics data analysis
 
-2015 - [moCluster](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Integration of multiple omics datasets to identify patterns - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00824)
