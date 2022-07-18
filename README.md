@@ -59,6 +59,8 @@ http://www.pastelbioscience.co.uk/resources/databases.html - this list contains 
 
 [Reactome](https://reactome.org/) - nicer looking biological pathway database
 
+2021 - [CPTAC](https://github.com/PayneLab/cptac) - python/R - API interaface to publically available cancer datasets - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00919)
+
 
 ## 3. Raw data search software/algorithms
 
@@ -71,9 +73,11 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 
 [Peptide-shaker](https://compomics.github.io/projects/peptide-shaker) is like the swiss army knife of search tools. You can search data with multiple search engines inclduing, comet, tide, andromeda, mascot, X!Tandem and more that I've never heard of.  
 
-
+[MaxQuant Live](https://maxquant.org/mqlive/)
 
 ## 4. Assorted pipeline Tools
+
+2015 - [Ursgal](https://github.com/ursgal/ursgal) - python - combines multiple search engine algorithms, postprocessing algorithms, and stastis on the output from multiple search engines - [paper1](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00860) [paper2](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00799)
 
 2021 - [Monocle](https://github.com/gygilab/Monocle) a program built, in part by Deven Schweppe, for monoisotopic peak and accurate precursor m/z detection in shotgun proteomics experiments. I have only spent a little time tinkering around with this, but if I ever need to make a raw data analysis pipeline this would be included. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00563)
 
@@ -92,6 +96,13 @@ Software with a pretty GUI and a peptide search engine for raw file searches.
 R is a great language to learn for proteomics data analysis. I highly recommend leanring R or Python. From what I've read R is more popular in Academia, while Python is more popular in Industry. Probably because python is great for making piplines and can do more than just statistcal analysis. While R has so many more novel packages for data analysis, that's probably not used a lot in Industry. 
 
 I don't recommend it for large raw files but it's possible to read raw MS files into R and analyze the PSMs. Can be helpful if you want to plot or quantify specific PTMs or peptides for say a PRM experiment.
+
+2015 - [MaRaCluster](https://github.com/statisticalbiotechnology/maracluster) - C++ - clustering technique to identify fragment spectra stemming from the same peptide species - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00749)
+
+2018 - [RawTools](https://github.com/kevinkovalchik/RawTools) - C# - quality control checking of raw files, can assist in method development and insturment quality control - [paper](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.8b00721)
+
+2018 - [MSstatsQC](https://www.bioconductor.org/packages/release/bioc/html/MSstatsQC.html) - R - provides methods for multiple peptide monitoring using raw MS files, works for DDA and DIA data - [paper](https://pubs.acs.org/doi/full/10.1021/acs.jproteome.8b00732)
+
 
 2018 - [rawDiag](https://github.com/fgcz/rawDiag) - R - Package that can be used in conjustion with rawrr - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00173)
 
@@ -145,6 +156,8 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2020 - [PeCorA](https://github.com/jessegmeyerlab/PeCorA) - R - peptide correlation analsis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00602)
 
 [cytoscape](https://cytoscape.org/) - visualizing protein-protein interaction netweorks
+
+2019 - [IPSC](https://github.com/coongroup/IPSA) - Interactive Peptide Spectrum Annotator, web based utility for shotgun mass spectrum annotation - [paper](https://www.mcponline.org/article/S1535-9476(20)32771-7/fulltext)
 
 # Multi-Omics data analysis
 
