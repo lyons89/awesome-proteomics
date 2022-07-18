@@ -148,7 +148,7 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2021 - [ClipsMS](https://github.com/loolab2020/ClipsMS) - python -  analysis of terminal and internal fragments in top-down mass spectrometry data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00952)
 
 
-# 9. Multi-Omics data analysis
+## 9. Multi-Omics data analysis
 
 2015 - [moCluster](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Integration of multiple omics datasets to identify patterns - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00824)
 
