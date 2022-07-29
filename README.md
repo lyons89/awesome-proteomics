@@ -88,7 +88,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2021 - [qcloud2](https://github.com/proteomicsunitcrg/qcloud2-pipeline) - cloud based quality control pipeline, can be integrated with nextflow and openMS - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00853)
 
-
+2021 - [DIAproteomics](https://www.openms.de/comp/diaproteomics/) - python - a module that can be added to a openMS workflow for the analysis of DIA data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.1c00123)
 
 ## 5. Raw Data Analysis
 
