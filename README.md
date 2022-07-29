@@ -59,6 +59,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2021 - [CPTAC](https://github.com/PayneLab/cptac) - python/R - API interaface to publically available cancer datasets - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00919)
 
+2021 - [ppx](https://github.com/wfondrie/ppx) - python - Python interface to proteomics data repositories - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.1c00454)
 
 ## 3. Raw data search software/algorithms
 
