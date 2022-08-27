@@ -4,7 +4,7 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 # awesome-proteomics
-An awesome list of proteomics tools and resources
+An awesome list of proteomics tools and resources.
 
 I've been analyzing large scale proteomics data sets for over 5 years now. I've recently stumbled upon these awesome lists and wanted to make an in-depth one for proteomics.
 
@@ -36,7 +36,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Review article](https://www.nature.com/articles/nrm1468) great proteomics review article
 
-[Tutorial videos](https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos) videos from NCQBCS, a project lead by the Coon lab. Contains lots of information regarding Experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
+[Tutorial videos](https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos) videos from NCQBCS, a project led by the Coon lab. Contains lots of information regarding Experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
 
 [ASMS video mass spec channel](https://vimeo.com/channels/asms) contains a lot of videos from leading researchers in the protoemics field. 
 
@@ -46,7 +46,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 ## 2. Databases
 
-[ProteomeXchange](http://www.proteomexchange.org/) is a global repository that contains links to all major databases, including MassIVE, Pride, iProX and more. Probably the best place to start.
+[ProteomeXchange](http://www.proteomexchange.org/) is a global repository for raw MS data that contains links to all major databases, including MassIVE, Pride, iProX and more. Probably the best place to start.
 
 [massIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp)
 
