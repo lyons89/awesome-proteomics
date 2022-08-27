@@ -161,6 +161,8 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2015 - [moCluster](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Integration of multiple omics datasets to identify patterns - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00824)
 
 
+2019 - [MOGSA]([https://github.com/kerschke/mogsa](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Multiple omics data integrative clustering and gene set analysis - [paper](https://www.mcponline.org/article/S1535-9476(20)32768-7/fulltext)
+
 ## Miscellaneous
 
 2021 - [ProteaseGuru](https://github.com/smith-chem-wisc/ProteaseGuru) - C# - tool for In Silico Database Digestion, optimize bottom up experiments - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00954)
