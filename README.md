@@ -32,7 +32,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Phil Wilmarth](https://github.com/pwilmart/Start_Here) has alot of goodlearning resources. He was python scripts for raw data analysis as well as blog posts detailing TMT data analysis techniques. 
 
-[biostars](https://www.biostars.org/)
+[biostars](https://www.biostars.org/) is like stackoverflow but only for bioinformatics, has forums for questions, job postings and tutorials.
 
 [Review article](https://www.nature.com/articles/nrm1468) great proteomics review article
 
@@ -44,6 +44,8 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Videos from Matthew Padula](https://www.youtube.com/c/MatthewPadula/videos) lots of great videos on the basis of mass spectrometry and proteomics.
 
+[R books](https://bookdown.org/) large abundance of ebooks for learning R.
+
 ## 2. Databases
 
 [ProteomeXchange](http://www.proteomexchange.org/) is a global repository for raw MS data that contains links to all major databases, including MassIVE, Pride, iProX and more. Probably the best place to start.
@@ -52,7 +54,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Pride database](https://www.ebi.ac.uk/pride/archive/)
 
-[Master Database](http://www.pastelbioscience.co.uk/resources/databases.html) - Pastel BioScience database contains so much useful information that I'm sure the rest of my awesome list will be redundant
+[Master Database](http://www.pastelbioscience.co.uk/resources/databases.html) - Pastel BioScience database contains staggering amounts information that I'm sure the rest of my awesome list will be redundant.
 
 [Uniprot](https://www.uniprot.org/) - Complete protein database
 
