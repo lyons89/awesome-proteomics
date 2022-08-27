@@ -97,6 +97,8 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2021 - [DIAproteomics](https://www.openms.de/comp/diaproteomics/) - python - a module that can be added to a openMS workflow for the analysis of DIA data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.1c00123)
 
+2019 - [DIAlignR](https://github.com/Roestlab/DIAlignR) - R - DIA retention time alignment of targetd MS data, including DIA and SWATH-MS - [paper](https://www.mcponline.org/article/S1535-9476(20)31843-0/fulltext)
+
 ## 5. Raw Data Analysis
 
 R is a great language to learn for proteomics data analysis. I highly recommend leanring R or Python. From what I've read R is more popular in Academia, while Python is more popular in Industry. Probably because python is great for making piplines and can do more than just statistcal analysis. While R has so many more novel packages for data analysis, that's probably not used a lot in Industry. 
@@ -164,6 +166,8 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2019 - [MOGSA]([https://github.com/kerschke/mogsa](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Multiple omics data integrative clustering and gene set analysis - [paper](https://www.mcponline.org/article/S1535-9476(20)32768-7/fulltext)
 
 ## Miscellaneous
+
+2012 - [ProteoWizard](https://proteowizard.sourceforge.io/publications.html) - Great software for converting one MS file type to another. I mostly use it ot convert thermo .raw files to mzML - [paper](https://www.nature.com/articles/nbt.2377)
 
 2021 - [ProteaseGuru](https://github.com/smith-chem-wisc/ProteaseGuru) - C# - tool for In Silico Database Digestion, optimize bottom up experiments - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00954)
 
