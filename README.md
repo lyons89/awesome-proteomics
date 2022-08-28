@@ -87,9 +87,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2021 - [Monocle](https://github.com/gygilab/Monocle) a program built, in part by Deven Schweppe, for monoisotopic peak and accurate precursor m/z detection in shotgun proteomics experiments. I have only spent a little time tinkering around with this, but if I ever need to make a raw data analysis pipeline this would be included. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00563)
 
-
 2021 - [RawBeans](https://bitbucket.org/incpm/prot-qc/src/master/) is a upgraded program of RawMeat. It's a raw data quaility control tool that help identify insturment issues relating to spray instability, problems with fragmentation or unequal loading. This program can be used on a stand alone PC or included in a pipeline. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00956?goto=supporting-info)
-
 
 2021 - [mokapot](https://github.com/wfondrie/mokapot) - python -  Semisupervised Learning for Peptide Detection - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c01010)
 
@@ -121,6 +119,9 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2021 - [PSpecteR](https://github.com/EMSL-Computing/PSpecteR) - R - User Friendly and Interactive for Visualizing the quality of Top-Down and Bottom-Up Proteomics - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00857)
 
+2015 - [pyproteome](https://github.com/white-lab/pyproteome) - python - analyzes proteomics data, can filter, normalize, perform motif and pathway enrichment. Currently only supports ProteomeDiscoverer .msf search files - [paper](https://pyproteome.readthedocs.io/en/latest/)
+
+2012/2020 - [MSnbase](https://github.com/lgatto/MSnbase) - R - provides MS data structures, allows you to process, quantify, visualize raw data - [paper](https://academic.oup.com/bioinformatics/article/28/2/288/199094?login=false)
 
 
 ## 6. Stastical Analysis
@@ -158,12 +159,14 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 2021 - [ClipsMS](https://github.com/loolab2020/ClipsMS) - python -  analysis of terminal and internal fragments in top-down mass spectrometry data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00952)
 
 
+
 ## 9. Multi-Omics data analysis
 
 2015 - [moCluster](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Integration of multiple omics datasets to identify patterns - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00824)
 
-
 2019 - [MOGSA]([https://github.com/kerschke/mogsa](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Multiple omics data integrative clustering and gene set analysis - [paper](https://www.mcponline.org/article/S1535-9476(20)32768-7/fulltext)
+
+
 
 ## Miscellaneous
 
@@ -177,4 +180,4 @@ I don't recommend it for large raw files but it's possible to read raw MS files 
 
 2019 - [IPSC](https://github.com/coongroup/IPSA) - Interactive Peptide Spectrum Annotator, web based utility for shotgun mass spectrum annotation - [paper](https://www.mcponline.org/article/S1535-9476(20)32771-7/fulltext)
 
-
+2021 - [DeepLC](https://github.com/compomics/DeepLC) - python - predicts retention times for peptides that have unseen modifications - [paper](https://www.nature.com/articles/s41592-021-01301-5)
