@@ -97,11 +97,16 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2019 - [DIAlignR](https://github.com/Roestlab/DIAlignR) - R - DIA retention time alignment of targetd MS data, including DIA and SWATH-MS - [paper](https://www.mcponline.org/article/S1535-9476(20)31843-0/fulltext)
 
+[PAW_pipeline](https://github.com/pwilmart/PAW_pipeline) - python - a pretty much stock python raw file protoemics pipeline tool. It includes functions, to convert files, run comet, produce histograms. Can also do TMT - [paper](https://pubmed.ncbi.nlm.nih.gov/20157357/)
+
 ## 5. Raw Data Analysis
 
 R is a great language to learn for proteomics data analysis. I highly recommend leanring R or Python. From what I've read R is more popular in Academia, while Python is more popular in Industry. Probably because python is great for making piplines and can do more than just statistcal analysis. While R has so many more novel packages for data analysis, that's probably not used a lot in Industry. 
 
 I don't recommend it for large raw files but it's possible to read raw MS files into R and analyze the PSMs. Can be helpful if you want to plot or quantify specific PTMs or peptides for say a PRM experiment.
+
+
+2022 - [RforMassSpectrometry](https://www.rformassspectrometry.org/) - R - a massive project that contains multiple helpful packages including RforMassSpectrometry, MsExperiment, Spectra, QFeatures, PSMatch, Chromatograms, MsCoreUtils, and MetaboCoreUtils. 
 
 2015 - [MaRaCluster](https://github.com/statisticalbiotechnology/maracluster) - C++ - clustering technique to identify fragment spectra stemming from the same peptide species - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00749)
 
