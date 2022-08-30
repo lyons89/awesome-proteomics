@@ -76,7 +76,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Peptide-shaker](https://compomics.github.io/projects/peptide-shaker) is like the swiss army knife of search tools. You can search data with multiple search engines inclduing, comet, tide, andromeda, mascot, X!Tandem and more that I've never heard of.  
 
-[MaxQuant Live](https://maxquant.org/mqlive/) 
+[MaxQuant Live](https://maxquant.org/mqlive/) for real time monitoring of MS data and acquistion. 
 
 [skyline](https://skyline.ms/project/home/software/skyline/begin.view) - software for targeted proteomics - [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799042/)
 
