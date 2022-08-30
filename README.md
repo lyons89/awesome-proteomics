@@ -34,13 +34,13 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [biostars](https://www.biostars.org/) is like stackoverflow but only for bioinformatics, has forums for questions, job postings and tutorials.
 
-[Review article](https://www.nature.com/articles/nrm1468) great proteomics review article
+[Review article](https://www.nature.com/articles/nrm1468) about protoemics.
 
-[Tutorial videos](https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos) videos from NCQBCS, a project led by the Coon lab. Contains lots of information regarding Experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
+[Tutorial videos](https://www.youtube.com/channel/UC0v4sjdXLMa-OWR7IYeoFoA/videos) from NCQBCS, a project led by the Coon lab. Contains lots of information regarding experimental design, ionization, quantitative proteomics, analysis, post-translational modifications and more.
 
 [ASMS video mass spec channel](https://vimeo.com/channels/asms) contains a lot of videos from leading researchers in the protoemics field. 
 
-[Videos from Nikolai](https://www.youtube.com/c/NikolaiSlavovResearch/videos) most of his videos focus on single cell proteomics, and DIA
+[Videos from Nikolai](https://www.youtube.com/c/NikolaiSlavovResearch/videos) most of his videos focus on single cell proteomics, and DIA.
 
 [Videos from Matthew Padula](https://www.youtube.com/c/MatthewPadula/videos) lots of great videos on the basis of mass spectrometry and proteomics.
 
@@ -54,9 +54,9 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Pride database](https://www.ebi.ac.uk/pride/archive/)
 
-[Master Database](http://www.pastelbioscience.co.uk/resources/databases.html) - Pastel BioScience database contains staggering amounts information that I'm sure the rest of my awesome list will be redundant.
+[Pastel BioScience](http://www.pastelbioscience.co.uk/resources/databases.html) has a database that contains staggering amounts information that I'm sure the rest of my awesome list will be redundant.
 
-[Uniprot](https://www.uniprot.org/) - Complete protein database
+[Uniprot](https://www.uniprot.org/) - Has all the information you will ever need to know for individual proteins.
 
 [Biogrid](https://thebiogrid.org/) - protein-protein interaction database
 
@@ -101,10 +101,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 ## 5. Raw Data Analysis
 
-R is a great language to learn for proteomics data analysis. I highly recommend leanring R or Python. From what I've read R is more popular in Academia, while Python is more popular in Industry. Probably because python is great for making piplines and can do more than just statistcal analysis. While R has so many more novel packages for data analysis, that's probably not used a lot in Industry. 
-
-I don't recommend it for large raw files but it's possible to read raw MS files into R and analyze the PSMs. Can be helpful if you want to plot or quantify specific PTMs or peptides for say a PRM experiment.
-
+R is a great language to learn for proteomics data analysis. I highly recommend leanring R or Python. From what I've heard R is more popular in Academia, while Python is more popular in Industry. Probably because python is great for making piplines and can do more than just statistcal analysis. While R has many more cutting edge packages for data analysis.
 
 2022 - [RforMassSpectrometry](https://www.rformassspectrometry.org/) - R - a massive project that contains multiple helpful packages including RforMassSpectrometry, MsExperiment, Spectra, QFeatures, PSMatch, Chromatograms, MsCoreUtils, and MetaboCoreUtils. 
 
