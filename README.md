@@ -6,7 +6,7 @@
 # awesome-proteomics
 An awesome list of proteomics tools and resources.
 
-I've been analyzing large scale proteomics data sets for over 5 years now. I've recently stumbled upon these awesome lists and wanted to make an in-depth one for proteomics.
+I've been analyzing large scale proteomics data sets for over 5 years now. I've recently stumbled upon these awesome lists and wanted to make an one for proteomics.
 
 
 ## Proteomics 
@@ -19,10 +19,10 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 5. Raw Data Analysis
 6. Stastical Analysis
 7. Protein Pathway Enrichment
-8. Top down data analysis
-9. Multi-Omics data analysis
-10. Protein Pathway Enrichment
-11. Kinase Motif/Activity Analysis
+8. Kinase Motif/Activity Analysis
+9. Top down data analysis
+10. Multi-Omics data analysis
+
 
 
 
@@ -56,7 +56,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Pastel BioScience](http://www.pastelbioscience.co.uk/resources/databases.html) has a database that contains staggering amounts information that I'm sure the rest of my awesome list will be redundant.
 
-[Uniprot](https://www.uniprot.org/) - Has all the information you will ever need to know for individual proteins.
+[Uniprot](https://www.uniprot.org/) - Has all the information you will ever need to know for individual proteins and the go to for protein FASTA databases.
 
 [Biogrid](https://thebiogrid.org/) - protein-protein interaction database
 
@@ -140,9 +140,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2020 - [DEqMS](https://github.com/yafeng/DEqMS) - R - Developed ontop of limma, but takes into account variability in PSMs. Works on both labelled and unlabelled samples - [paper](https://www.mcponline.org/article/S1535-9476(20)34997-5/fulltext)
 
-
-
-2021 - [MSstatsPTM](https://github.com/tsunghengtsai/MSstatsPTM) - labeled and unlabeled PTM data analysis
+2021 - [MSstatsPTM](https://github.com/tsunghengtsai/MSstatsPTM) - labeled and unlabeled PTM data analysis - [paper](https://www.mcponline.org/article/S1535-9476(22)00285-7/fulltext)
 
 
 
@@ -159,17 +157,24 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 2021 - [leapR](https://github.com/PNNL-CompBio/leapR) - R - package for multiple pathway analysis - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00963)
 
 
-## 8. Top down data analysis
+## 8. Kinase Motif/Activity Analysis
+
+2017 - [KSEAapp](https://github.com/casecpb/KSEA/) - R - Kinase substrate enrichment analysis. I would recommend using with a freshly downloaded kinase-substarte database from phosphositeplus - [paper](https://pubmed.ncbi.nlm.nih.gov/28655153/)
+
+2015 - [rnotifx](https://github.com/omarwagih/rmotifx) - R - motif enrichment analyssis of PTMs on proteins, probably mostly used for phosphorylation - [paper](https://pubmed.ncbi.nlm.nih.gov/26572964/)
+
+
+## 9. Top down data analysis
 
 2021 - [ClipsMS](https://github.com/loolab2020/ClipsMS) - python -  analysis of terminal and internal fragments in top-down mass spectrometry data - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00952)
 
 
 
-## 9. Multi-Omics data analysis
+## 10. Multi-Omics data analysis
 
 2015 - [moCluster](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Integration of multiple omics datasets to identify patterns - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00824)
 
-2019 - [MOGSA]([https://github.com/kerschke/mogsa](https://www.bioconductor.org/packages/release/bioc/html/mogsa.html) - R - Multiple omics data integrative clustering and gene set analysis - [paper](https://www.mcponline.org/article/S1535-9476(20)32768-7/fulltext)
+2019 - [MOGSA](https://github.com/kerschke/mogsa) - R - Multiple omics data integrative clustering and gene set analysis - [paper](https://www.mcponline.org/article/S1535-9476(20)32768-7/fulltext)
 
 
 
