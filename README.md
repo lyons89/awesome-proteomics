@@ -50,9 +50,9 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [ProteomeXchange](http://www.proteomexchange.org/) is a global repository for raw MS data that contains links to all major databases, including MassIVE, Pride, iProX and more. Probably the best place to start.
 
-[massIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp)
+[massIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) - global repositoy 
 
-[Pride database](https://www.ebi.ac.uk/pride/archive/)
+[Pride database](https://www.ebi.ac.uk/pride/archive/) - global repositoy
 
 [Pastel BioScience](http://www.pastelbioscience.co.uk/resources/databases.html) has a database that contains staggering amounts information that I'm sure the rest of my awesome list will be redundant.
 
@@ -70,17 +70,19 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 ## 3. Raw data search software/algorithms
 
-[Fragpipe](https://github.com/Nesvilab/FragPipe) currently my favorite raw file search software. It's much faster than maxquant and in my opinion has sleeker GUI. In a recent update it also allows searches to be set up on a linux server for even faster results. The software is very modular, it consists of [MSfragger](https://msfragger.nesvilab.org/) the database search algorithm, [Philosopher](https://philosopher.nesvilab.org/) that analyzes the database results, as well as others for PTM and TMT integration. 
+2017 - [Fragpipe](https://github.com/Nesvilab/FragPipe) - Java - It's a very fast search engine with a nice GUI. The software is modular, it consists of [MSfragger](https://msfragger.nesvilab.org/) the database search algorithm, [Philosopher](https://philosopher.nesvilab.org/) that analyzes the database results, as well as others for PTM and TMT integration. 
 
-[MaxQuant](https://www.maxquant.org/) is probably the most used and well known DDA software. Developed by Jurgon Cox, this completely free software is user friendly and is always being updated with new and original features. There is even a [youtube](https://www.youtube.com/c/MaxQuantChannel) that has tons of videos on how to use the software. 
-
-[Peptide-shaker](https://compomics.github.io/projects/peptide-shaker) is like the swiss army knife of search tools. You can search data with multiple search engines inclduing, comet, tide, andromeda, mascot, X!Tandem and more that I've never heard of.  
+2008 - [MaxQuant](https://www.maxquant.org/) is probably the most used and well known DDA software. Developed by Jurgon Cox, this completely free software is user friendly and is always being updated with new and original features. There is even a [youtube](https://www.youtube.com/c/MaxQuantChannel) that has tons of videos on how to use the software. - [paper](https://www.nature.com/articles/nbt.1511)
 
 [MaxQuant Live](https://maxquant.org/mqlive/) for real time monitoring of MS data and acquistion. 
 
-[skyline](https://skyline.ms/project/home/software/skyline/begin.view) - software for targeted proteomics - [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799042/)
+2015 - [Peptide-shaker](https://compomics.github.io/projects/peptide-shaker) is like the swiss army knife of search tools. You can search data with multiple search engines inclduing, comet, tide, andromeda, mascot, X!Tandem and more that I've never heard of. [paper](https://www.nature.com/articles/nbt.3109)
 
+2010 - [skyline](https://skyline.ms/project/home/software/skyline/begin.view) - software for targeted proteomics - [paper](https://pubmed.ncbi.nlm.nih.gov/20147306/)
 
+2012 - [Comet](https://uwpr.github.io/Comet/) - C++ - Free and open-source search engine, lately it's had several  - [paper](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/pmic.201200439)
+
+2023 - [Sage](https://github.com/lazear/sage) - Rust - most likely the current fasest search engine, it's completely terminal based but if you learn to use it, it will be worth it - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.3c00486?ref=PDF)
 
 ## 4. Assorted pipeline Tools
 
@@ -90,7 +92,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2019 - [DIAlignR](https://github.com/Roestlab/DIAlignR) - R - DIA retention time alignment of targetd MS data, including DIA and SWATH-MS - [paper](https://www.mcponline.org/article/S1535-9476(20)31843-0/fulltext)
 
-2021 - [Monocle](https://github.com/gygilab/Monocle) a program built, in part by Deven Schweppe, for monoisotopic peak and accurate precursor m/z detection in shotgun proteomics experiments. I have only spent a little time tinkering around with this, but if I ever need to make a raw data analysis pipeline this would be included. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00563)
+2021 - [Monocle](https://github.com/gygilab/Monocle) - C# - for monoisotopic peak and accurate precursor m/z detection in shotgun proteomics experiments. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00563)
 
 2021 - [RawBeans](https://bitbucket.org/incpm/prot-qc/src/master/) is a upgraded program of RawMeat. It's a raw data quaility control tool that help identify insturment issues relating to spray instability, problems with fragmentation or unequal loading. This program can be used on a stand alone PC or included in a pipeline. - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00956?goto=supporting-info)
 
