@@ -12,7 +12,8 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 ## Proteomics 
 
 ### Table of Contents 
-1. Learning Resources
+1A. Learning Resources - Proteomics
+1B. Learning Resources - Programming
 2. Databases
 3. Raw data search software/algorithms
 4. Assorted Pipeline Tools
@@ -26,7 +27,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 
 
-## 1. Leaning Resources
+## 1A. Leaning Resources - Proteomics
 
 [Ben Orsburn](https://proteomicsnews.blogspot.com/) has hands down the best protomeics blog I've ever seen. Ben is very knowledgable with a great sense of humor.
 
@@ -44,15 +45,26 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 [Videos from Matthew Padula](https://www.youtube.com/c/MatthewPadula/videos) lots of great videos on the basis of mass spectrometry and proteomics.
 
-[R books](https://bookdown.org/) large abundance of ebooks for learning R.
+[MayInstuite](https://github.com/MayInstitute) Computational proteomics short courses organized by Olga Vitek. They also have ALOT of videos on [youtube](https://www.youtube.com/@MayInstituteNEU).
+
+## 1B. Learning Resources - Programming
+
+[R books](https://bookdown.org/) large abundance of ebooks for learning R, from basic R, to advance R, Shiny and more!!
+
+[Are-we-learning-yet](https://github.com/anowell/are-we-learning-yet?tab=readme-ov-file) a resource to learn machine learning in rust. I've noticed rust is starting to become a more popular language, not only in the wild but also in proteomics (see Sage below).
+
+[conda/bioconda](https://github.com/MonashBioinformaticsPlatform/bioconda-tutorial) anaconda is a popular bioinformatics tool used mostly for python, and for some R, programming. Useful for creating reproducible enrivonments.
+
+[Intro Math](https://github.com/erikaduan/introductory_maths) if you're like me and it's been a few years since you've had to use math check out this repo to brush up on it and learn some R, Python and Julia.
+
+[python data science tips](https://github.com/erikaduan/python_data_science_tips/tree/master/notebooks) another resource to learn python/pandas with.
+
+[Mass Spec Coding Club](https://github.com/michaelmarty/MassSpecCodingClub) great resource to learn python and then apply that knowledge to mass spectrometry.
+
 
 ## 2. Databases
 
 [ProteomeXchange](http://www.proteomexchange.org/) is a global repository for raw MS data that contains links to all major databases, including MassIVE, Pride, iProX and more. Probably the best place to start.
-
-[massIVE](https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp) - global repositoy 
-
-[Pride database](https://www.ebi.ac.uk/pride/archive/) - global repositoy
 
 [Pastel BioScience](http://www.pastelbioscience.co.uk/resources/databases.html) has a database that contains staggering amounts information that I'm sure the rest of my awesome list will be redundant.
 
@@ -74,19 +86,21 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2008 - [MaxQuant](https://www.maxquant.org/) is probably the most used and well known DDA software. Developed by Jurgon Cox, this completely free software is user friendly and is always being updated with new and original features. There is even a [youtube](https://www.youtube.com/c/MaxQuantChannel) that has tons of videos on how to use the software. - [paper](https://www.nature.com/articles/nbt.1511)
 
-[MaxQuant Live](https://maxquant.org/mqlive/) for real time monitoring of MS data and acquistion. 
-
 2015 - [Peptide-shaker](https://compomics.github.io/projects/peptide-shaker) is like the swiss army knife of search tools. You can search data with multiple search engines inclduing, comet, tide, andromeda, mascot, X!Tandem and more that I've never heard of. [paper](https://www.nature.com/articles/nbt.3109)
 
 2010 - [skyline](https://skyline.ms/project/home/software/skyline/begin.view) - software for targeted proteomics - [paper](https://pubmed.ncbi.nlm.nih.gov/20147306/)
 
 2012 - [Comet](https://uwpr.github.io/Comet/) - C++ - Free and open-source search engine, lately it's had several  - [paper](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/pmic.201200439)
 
+2020 - [DIA-NN](https://github.com/vdemichev/DiaNN) - C/C++ - free and open source search tool for DIA data that uses neural networks, works using either a library or a FASTA database. - [paper](https://www.nature.com/articles/s41592-019-0638-x)
+
 2023 - [Sage](https://github.com/lazear/sage) - Rust - most likely the current fasest search engine, it's completely terminal based but if you learn to use it, it will be worth it - [paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.3c00486?ref=PDF)
 
 ## 4. Assorted pipeline Tools
 
-[PAW_pipeline](https://github.com/pwilmart/PAW_pipeline) - python - a pretty much stock python raw file protoemics pipeline tool. It includes functions, to convert files, run comet, produce histograms. Can also do TMT - [paper](https://pubmed.ncbi.nlm.nih.gov/20157357/)
+2019 - [MaxQuant Live](https://maxquant.org/mqlive/) (not sure where to put this) for real time monitoring of MS data and acquistion. 
+
+2009 - [PAW_pipeline](https://github.com/pwilmart/PAW_pipeline) - python - a pretty much stock python raw file protoemics pipeline tool. It includes functions, to convert files, run comet, produce histograms. Can also do TMT - [paper](https://pubmed.ncbi.nlm.nih.gov/20157357/)
 
 2015 - [Ursgal](https://github.com/ursgal/ursgal) - python - combines multiple search engine algorithms, postprocessing algorithms, and stastis on the output from multiple search engines - [paper1](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00860) [paper2](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00799)
 
@@ -128,7 +142,7 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 
 2022 - [RforMassSpectrometry](https://www.rformassspectrometry.org/) - R - a massive project that contains multiple helpful packages including RforMassSpectrometry, MsExperiment, Spectra, QFeatures, PSMatch, Chromatograms, MsCoreUtils, and MetaboCoreUtils. 
 
-
+2023 - [mpwR](https://github.com/OKdll/mpwR) - R - package that allows you to directly compare the output of raw search engines such as MQ, DIANN, spectronaut and I think PD. It's also helpful if you're testing out different settings within your search engine and you want to quickly see how each performs. - [paper](https://pubmed.ncbi.nlm.nih.gov/37267150/)
 
 ## 6. Stastical Analysis
 
@@ -143,6 +157,8 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 2020 - [DEqMS](https://github.com/yafeng/DEqMS) - R - Developed ontop of limma, but takes into account variability in PSMs. Works on both labelled and unlabelled samples - [paper](https://www.mcponline.org/article/S1535-9476(20)34997-5/fulltext)
 
 2021 - [MSstatsPTM](https://github.com/tsunghengtsai/MSstatsPTM) - labeled and unlabeled PTM data analysis - [paper](https://www.mcponline.org/article/S1535-9476(22)00285-7/fulltext)
+
+[PermFDP](https://github.com/steven-shuken/permFDP) - R - Package to perform multiple hypothesis correction using permutation based FDP. One of the better performing methods for multiple test corrections. - [paper](https://pubs.acs.org/doi/full/10.1021/acs.analchem.2c03719?casa_token=4CgZMMnAmjgAAAAA%3A-8SyKwz2Hs3L-yRXXQDkq45ZBPW8nexcpqaYzDB5Ok-Kgp0C_W9KPscLE-zUfN2nZUv8uiNYZZcCxy-7) the paper isn't on the tool, it's just a paper that uses it and compares it to other methods. 
 
 
 
