@@ -14,15 +14,15 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 ### Table of Contents 
 1A. Learning Resources - Proteomics  
 1B. Learning Resources - Programming  
-2. Databases
-3. Raw data search software/algorithms
-4. Assorted Pipeline Tools
-5. Raw Data Analysis
-6. Stastical Analysis
-7. Protein Pathway Enrichment
-8. Kinase Motif/Activity Analysis
-9. Top down data analysis
-10. Multi-Omics data analysis
+2. Databases  
+3. Raw data search software/algorithms  
+4. Assorted Pipeline Tools  
+5. Raw Data Analysis  
+6. Stastical Analysis  
+7. Protein Pathway Enrichment  
+8. Kinase Motif/Activity Analysis  
+9. Top down data analysis  
+10. Multi-Omics data analysis  
 
 
 
