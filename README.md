@@ -12,8 +12,8 @@ I've been analyzing large scale proteomics data sets for over 5 years now. I've 
 ## Proteomics 
 
 ### Table of Contents 
-1A. Learning Resources - Proteomics
-1B. Learning Resources - Programming
+1A. Learning Resources - Proteomics  
+1B. Learning Resources - Programming  
 2. Databases
 3. Raw data search software/algorithms
 4. Assorted Pipeline Tools
